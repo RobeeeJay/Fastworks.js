@@ -15,6 +15,15 @@ http://www.gnu.org/copyleft/gpl.html
 
 
 
+Installation
+============
+
+npm install fastworks
+
+(yeah, you knew that, right?)
+
+
+
 To Do
 =====
 
