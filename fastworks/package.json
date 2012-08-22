@@ -1,6 +1,6 @@
 {
 	"name": "fastworks",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"author": "Robee Shepherd <rob@robertsworld.org.uk>",
 	"description": "A Fast Middleware Framework",
 	"contributors": [ 
