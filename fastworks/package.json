@@ -1,6 +1,6 @@
 {
 	"name": "fastworks",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"author": "Robee Shepherd <rob@robertsworld.org.uk>",
 	"description": "A Fast Middleware Framework",
 	"contributors": [ 
@@ -28,6 +28,6 @@
 	],
 	"license": "GPL",
 	"engine": {
-		"node": ">=0.6"
+		"node": ">=0.8"
 	}
 }

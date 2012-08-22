@@ -128,6 +128,7 @@ SignedSession.prototype.processStack = function(request, response, destination)
 		// Assign the session
 		objSessionStore[guid] = new SessionStore();
 		request.session = objSessionStore[guid].storeBox;
+		objSessionStore[guid].signedKey = sig;
 	}
 	
 	this.next.processStack(request, response, destination);

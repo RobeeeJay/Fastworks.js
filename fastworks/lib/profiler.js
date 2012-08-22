@@ -65,7 +65,7 @@ Profiler.prototype.processStack = function(request, response, destination)
 		console.log(self.prefix + "V8 Heap Used, Before: " + self.colCode("cyan") + Math.floor((100 / memUsage.heapTotal) * memUsage.heapUsed) + "%" + self.colCode("yellow") + ", After: " + self.colCode("cyan") + Math.floor((100 / postUsage.heapTotal) * postUsage.heapUsed) + "%" + self.colCode("yellow") + ", Difference: " + self.colCode("cyan") + self.prettyMem(postUsage.heapTotal - memUsage.heapTotal));
   		console.log(self.colCode("bg_white") + self.colCode("clear"));
   		
-  		oldResponseEnd.apply(response, arguments);
+  		return oldResponseEnd.apply(response, arguments);
     };
 	
 	this.next.processStack(request, response, destination);
