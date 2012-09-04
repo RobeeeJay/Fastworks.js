@@ -11,6 +11,7 @@ License
 =======
 
 This framework is released under the GNU General Public License v3:
+
 http://www.gnu.org/copyleft/gpl.html
 
 
@@ -24,11 +25,24 @@ npm install fastworks
 
 
 
+Documentation
+=============
+
+The most up to date docs are usually in the Wiki on github:
+
+https://github.com/RobeeeJay/Fastworks.js/wiki
+
+
+
 To Do
 =====
 
 Add a lot more documentation
+
 More modules, improve existing modules
+
+Add more routers
+
 Speed optimisations
 
 
