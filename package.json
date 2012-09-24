@@ -1,6 +1,6 @@
 {
 	"name": "fastworks",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"author": "Robee Shepherd <rob@robertsworld.org.uk>",
 	"description": "A Fast Middleware Framework",
 	"contributors": [ 
@@ -17,7 +17,7 @@
 	"dependencies": {
 		"formidable": "1.0.11",
 		"cookie": "0.0.4",
-		"lactate": "0.8.11",
+		"lactate": "0.9.15",
 		"less": "1.3.0",
 		"uglify-js": "1.3.3"
 	},
