@@ -201,7 +201,7 @@ This must be included after Cookies for it to work, but once you've done that, a
 Session
 =======
 
-A simple cookie based session object! Just check the request.session object and use it however you want! Everything is handled automatically, and changes are live so multiple connections of the same session have access to the same object.
+A simple cookie based session object! Just check the request.session object and use it however you want! Everything is handled automatically, and changes are live so multiple connections of the same session have access to the same object. There is also a request.sessioncount number if you want to track the active session count.
 
 
 SignedSession
@@ -248,6 +248,12 @@ FavIcon
 =======
 
 A very simple favicon.ico server, which after the first read caches it in memory indefinitely. So it's fast!
+
+
+Activity
+========
+
+The activity module is for tracking things like how many people are viewing a page now. It is available through request.activity, with an entry for each requested url. Currently this is quite simplistic and thinks that the same page with different arguments are two different pages.
 
 
 Connect
