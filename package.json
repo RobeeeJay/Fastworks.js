@@ -1,6 +1,6 @@
 {
   "name": "fastworks",
-  "version": "0.4.00",
+  "version": "0.4.10",
   "author": {
     "name": "Robee Shepherd",
     "email": "robee_git@robeesworld.com"
@@ -21,8 +21,8 @@
     "formidable": "1.0.14",
     "cookie": "0.1.0",
     "lactate": "0.13.12",
-    "less": "1.4.2",
-    "uglify-js": "2.4.0"
+    "less": "1.5.1",
+    "uglify-js": "2.4.8"
   },
   "keywords": [
     "html",
